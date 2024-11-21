@@ -4,8 +4,10 @@ import caution from "../assets/caution.svg";
 import languages from "../assets/languages.svg";
 import settings from "../assets/settings.svg";
 import line from "../assets/line.svg";
+import useCurrentTime from "../CustomHooks/useTime";
 
 const Navbar = () => {
+  const time = useCurrentTime();
   return (
     <div className="h-14 flex justify-between items-end ">
       <img src={peppermintLogo} alt="" className="h-[2.3rem]" />
@@ -28,12 +30,12 @@ const Navbar = () => {
           </div>
         </div>
 
-        <div className="flex gap-5">
+        <div className="flex gap-5 items-center">
           <div className="  text-peppermint-200 flex gap-2 items-center justify-center ">
             <img src={battery} />
             <span className="font-bold">98%</span>
           </div>
-          <span className="text-peppermint-200">01:34:22</span>
+          <div className="text-peppermint-200 text-sm">{time}</div>
         </div>
       </div>
     </div>

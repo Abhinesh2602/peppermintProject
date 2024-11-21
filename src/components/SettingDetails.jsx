@@ -15,13 +15,13 @@ export const SettingDetails = () => {
         <div className="font-normal text-2xl text-peppermint-100">Settings</div>
       </div>
       <div className=" flex justify-start gap-8 ">
-        <SettingBtn btnText={"General"} selected={false} />
-        <SettingBtn btnText={"Electronics"} selected={false} />
-        <SettingBtn btnText={"Battery"} selected={false} />
-        <SettingBtn btnText={"Obstacle Status"} selected={true} />
-        <SettingBtn btnText={"Sensor Status"} selected={false} />
-        <SettingBtn btnText={"USS Data"} selected={false} />
-        <SettingBtn btnText={"Traction"} selected={false} />
+        <SettingBtn btnText={"General"} />
+        <SettingBtn btnText={"Electronics"} />
+        <SettingBtn btnText={"Battery"} />
+        <SettingBtn btnText={"Obstacle Status"} />
+        <SettingBtn btnText={"Sensor Status"} />
+        <SettingBtn btnText={"USS Data"} />
+        <SettingBtn btnText={"Traction"} />
       </div>
       <img src={bottomLine} alt="" className="mt-6" />
     </div>
