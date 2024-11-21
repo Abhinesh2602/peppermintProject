@@ -1,4 +1,4 @@
-import peppermintLogo from "../assets/peppermintLogo.svg";
+import peppermintLogo from "../assets/peppermint Logo.png";
 import battery from "../assets/battery.svg";
 import caution from "../assets/caution.svg";
 import languages from "../assets/languages.svg";
