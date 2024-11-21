@@ -1,5 +1,6 @@
 import leftArrow from "../assets/leftArrow.svg";
 import line from "../assets/line.svg";
+import bottomLine from "../assets/bottomLine.svg";
 import SettingBtn from "./SettingBtn";
 
 export const SettingDetails = () => {
@@ -13,7 +14,7 @@ export const SettingDetails = () => {
         <img src={line} alt="line" />
         <div className="font-normal text-2xl text-peppermint-100">Settings</div>
       </div>
-      <div className=" flex justify-start gap-12 ">
+      <div className=" flex justify-start gap-8 ">
         <SettingBtn btnText={"General"} selected={false} />
         <SettingBtn btnText={"Electronics"} selected={false} />
         <SettingBtn btnText={"Battery"} selected={false} />
@@ -22,6 +23,7 @@ export const SettingDetails = () => {
         <SettingBtn btnText={"USS Data"} selected={false} />
         <SettingBtn btnText={"Traction"} selected={false} />
       </div>
+      <img src={bottomLine} alt="" className="mt-6" />
     </div>
   );
 };

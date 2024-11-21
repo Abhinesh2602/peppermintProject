@@ -16,6 +16,7 @@ export default {
           300: "#64748b", // Muted text
           400: "#6ca0a0", //text Tertiary
           500: "#deffff",
+          600: "#303a3a",
 
           // Accent colors
           accent: {
